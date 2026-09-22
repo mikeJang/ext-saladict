@@ -67,7 +67,7 @@ export const getSrcPage: GetSrcPageFunction = (text, config, profile) => {
         : 'en'
       : mapBingLanguage(tl)
 
-  return `https://www.bing.com/translator/?from=auto&to=${lang}&text=${encodeURIComponent(
+  return `https://cn.bing.com/translator/?from=auto&to=${lang}&text=${encodeURIComponent(
     text
   )}`
 }
